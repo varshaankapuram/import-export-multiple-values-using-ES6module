@@ -1,9 +1,7 @@
-let myArray = ["camel", 256, true, "5.6"];
+export let myArray = ["camel", 256, true, "5.6"];
 
-let bulb = { watts: 10, type: "LED" };
+export let bulb = { watts: 10, type: "LED" };
 
-function multipleByFour(num) {
+export function multipleByFour(num) {
   return num * 4;
 }
-
-export { myArray, bulb, multipleByFour };
